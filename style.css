@@ -408,6 +408,9 @@ body.light-mode:before, body.light-mode .video-bg:before {
   padding: 20px 40px;
   margin-top: 7vh
 }
+.content-wrapper-lessons svg {
+  vertical-align:top;
+}
 .profile {
   width: 35px;
   margin-bottom: -10px;
@@ -471,7 +474,8 @@ body.light-mode:before, body.light-mode .video-bg:before {
   max-width: 550px;
   gap: 10px;
   font-weight: 300;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  margin-top: 5px
 }
 .content-wrapper-frame {
   font-weight: 300;
@@ -1142,5 +1146,13 @@ body.light-mode:before, body.light-mode .video-bg:before {
   }
   .content-section-icon {
     margin-top: .9vh;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .content-section-description {
+    line-height: 20px
+  }
+  .content-section-icon {
+    margin-top: .3vh;
   }
 }

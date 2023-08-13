@@ -128,7 +128,7 @@ body.light-mode:before, body.light-mode .video-bg:before {
   position: relative;
   font-size: 15px;
   font-weight: 500;
-  height: 250vh;
+  height: 350vh;
 }
 .header {
   display: flex;
@@ -397,6 +397,8 @@ body.light-mode:before, body.light-mode .video-bg:before {
   height: 100%;
   overflow: auto;
   background-color: var(--theme-bg-color);
+}
+.content-wrapper-lessons svg{
 }
 .content-wrapper-header {
   display: flex;
@@ -1129,12 +1131,18 @@ body.light-mode:before, body.light-mode .video-bg:before {
   .title-text {
     color: #FFF;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     font: normal 600 40px/47px Poppins, serif;
-    margin-top: 15%;
+    margin-top: 17%;
   }
   .title-main {
     color: #fff;
-    padding: 5px;
+    padding: 8px;
+  }
+  .content-section-description {
+    line-height: 20px
+  }
+  .content-section-icon {
+    margin-top: .9vh;
   }
 }

@@ -398,8 +398,6 @@ body.light-mode:before, body.light-mode .video-bg:before {
   overflow: auto;
   background-color: var(--theme-bg-color);
 }
-.content-wrapper-lessons svg{
-}
 .content-wrapper-header {
   display: flex;
   align-items: center;
@@ -1019,7 +1017,7 @@ body.light-mode:before, body.light-mode .video-bg:before {
   margin-top: 12%;
 }
 .main-preview {
-  height: calc(30% - 40vh / 2 - 25vh);
+  height: calc(20% - 40vh / 2 - 25vh);
   margin-top: 2%;
   background: #0029FF;
   border-radius: 10px;
@@ -1131,13 +1129,13 @@ body.light-mode:before, body.light-mode .video-bg:before {
   .title-text {
     color: #FFF;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     font: normal 600 40px/47px Poppins, serif;
     margin-top: 17%;
   }
   .title-main {
     color: #fff;
-    padding: 8px;
+    padding: 5px;
   }
   .content-section-description {
     line-height: 20px
